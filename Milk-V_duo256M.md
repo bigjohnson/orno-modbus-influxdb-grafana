@@ -3,13 +3,13 @@
 ## Create new user:
 
 ### Create home directory
-
+```
 mkdir /home
-
+```
 ### Create user
-
+```
 adduser powerline
-
+```
 ## Create init script that allow user write and read to the tty ports
 ```
 vi /etc/init.d/S99devices_groups
@@ -29,3 +29,9 @@ allow root execution
 ```
 chmod u+rwx /etc/init.d/S99devices_groups
 ```
+
+## Install python libraryes:
+```
+su powerline
+export MSGPACK_PUREPYTHON=true
+pip install  
