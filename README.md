@@ -58,4 +58,4 @@ import the orno.json in your grafana and change the INSERTYOURDATA placeolder wi
 
 # Harware with Milk-V Duo256M
 
-![Milk-V](Milk-V_duo256.png)
+![Milk-V](pics/Milk-V_duo256.png)
