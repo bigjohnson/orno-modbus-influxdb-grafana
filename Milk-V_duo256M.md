@@ -25,3 +25,7 @@ chmod g+wr /dev/ttyS3
 chgrp tty /dev/ttyS4
 chmod g+wr /dev/ttyS4
 ```
+allow root execution
+```
+chmod u+rwx /etc/init.d/S99devices_groups
+```
