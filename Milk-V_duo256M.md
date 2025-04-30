@@ -1,7 +1,5 @@
 # Milk-V duo256M setup
-
 ## Create new user:
-
 ### Create home directory
 ```
 mkdir /home
@@ -29,9 +27,11 @@ allow root execution
 ```
 chmod u+rwx /etc/init.d/S99devices_groups
 ```
-
 ## Install python libraryes:
 ```
-su powerline
 export MSGPACK_PUREPYTHON=true
-pip install  
+pip install io minimalmodbus struct serial time os influxdb timeloop datetime sys
+```
+## Install program
+
+
