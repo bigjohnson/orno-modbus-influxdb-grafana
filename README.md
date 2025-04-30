@@ -57,7 +57,5 @@ chmod +x modbus-influxdb.py
 import the orno.json in your grafana and change the INSERTYOURDATA placeolder with your measurement, select your correct influxdb datasource.
 
 # Harware with Milk-V Duo256M
-
-## see Milk-V_duo256M.md
-
+see [Milk-V_duo256M.md](Milk-V_duo256M.md)
 ![Milk-V](pics/Milk-V_duo256.png)
