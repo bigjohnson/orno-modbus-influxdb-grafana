@@ -32,10 +32,27 @@ chmod u+rwx /etc/init.d/S99devices_groups
 export MSGPACK_PUREPYTHON=true
 pip install io minimalmodbus struct serial time os influxdb timeloop datetime sys
 ```
-## Install program
+## Install program:
 ```
 su powerline
 cd /home/powerline
+wget https://raw.githubusercontent.com/bigjohnson/orno-modbus-influxdb-grafana/refs/heads/master/modbus-influxdb.py
 ```
-download file from github modbus-influxdb.py
+change the 
+## Install startup scripts:
+as root, if you are su as powerline type
+```
+exit
+cd
+```
+create file
+```
+vi /root/executecommand.sh
+```
+with content
+```
+su powerline
+/home/powerline/energymeter/modbus-influxdb.py > /dev/null &
+exit
+```
 
