@@ -1,8 +1,26 @@
 # Milk-V duo256M software setup
 
-## Connect the RS485 module
+## Connect the RS485 module to Milkv
 
-rs485.jpg
+![Pic1](pics/rs485.jpg)
+
+to the Milk-V duo256M
+
+Milkv TX pin 1 to RS485 module pin TX
+
+Milkv RX pin 2 to RS485 module pin RX
+
+Milkv 3V3(OUT) pin 36 to RS485 module pin VCC
+
+Milkv GND pin 38 to RS485 module pin GND
+
+## Connect RS485 module to Orno meter
+
+Meter pin A+ to RS485 module pin A+
+
+Meter pin B- to RS485 module pin B-
+
+Meter pin GND to RS485 module pin GND
 
 # Milk-V duo256M software setup
 ## Create new user:
