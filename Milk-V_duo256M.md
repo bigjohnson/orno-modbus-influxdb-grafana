@@ -2,7 +2,7 @@
 
 ## Connect the RS485 module
 
-
+rs485.jpg
 
 # Milk-V duo256M software setup
 ## Create new user:
