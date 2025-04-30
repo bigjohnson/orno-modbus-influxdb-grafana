@@ -1,4 +1,10 @@
-# Milk-V duo256M setup
+# Milk-V duo256M software setup
+
+## Connect the RS485 module
+
+
+
+# Milk-V duo256M software setup
 ## Create new user:
 ### Create home directory
 ```
@@ -38,7 +44,6 @@ su powerline
 cd /home/powerline
 wget https://raw.githubusercontent.com/bigjohnson/orno-modbus-influxdb-grafana/refs/heads/master/modbus-influxdb.py
 ```
-change the 
 ## Install startup scripts:
 as root, if you are su as powerline type
 ```
@@ -55,4 +60,15 @@ su powerline
 /home/powerline/energymeter/modbus-influxdb.py > /dev/null &
 exit
 ```
-
+allow execution
+```
+chmod u+x /root/executecommand.sh
+```
+add the executecommand.sh in startup file
+```
+vi /mnt/system/auto.sh
+```
+insert at the end
+```
+/root/executecommand.sh
+```
