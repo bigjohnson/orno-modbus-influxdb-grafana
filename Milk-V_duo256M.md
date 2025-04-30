@@ -4,8 +4,6 @@
 
 ![Pic1](pics/rs485.jpg)
 
-to the Milk-V duo256M
-
 Milkv TX pin 1 to RS485 module pin TX
 
 Milkv RX pin 2 to RS485 module pin RX
