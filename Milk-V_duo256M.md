@@ -52,7 +52,7 @@ chmod u+rwx /etc/init.d/S99devices_groups
 ## Install python libraryes:
 ```
 export MSGPACK_PUREPYTHON=true
-pip install io minimalmodbus struct serial time os influxdb timeloop datetime sys
+pip install io minimalmodbus serial influxdb time timeloop datetime
 ```
 ## Install program:
 ```
