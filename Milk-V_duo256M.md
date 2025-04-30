@@ -33,5 +33,9 @@ export MSGPACK_PUREPYTHON=true
 pip install io minimalmodbus struct serial time os influxdb timeloop datetime sys
 ```
 ## Install program
-
+```
+su powerline
+cd /home/powerline
+```
+download file from github modbus-influxdb.py
 
